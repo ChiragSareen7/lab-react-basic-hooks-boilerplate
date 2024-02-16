@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+body{
+  color: #666;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +41,34 @@
 
 .read-the-docs {
   color: #888;
+}
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.siblings {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
 }

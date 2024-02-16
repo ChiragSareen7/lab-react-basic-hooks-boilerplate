@@ -1,4 +1,4 @@
-// UseState.jsx
+
 import React, { useState, useEffect } from "react";
 import "../App.css";
 
@@ -19,12 +19,12 @@ function UseState() {
   };
 
   return (
-    <div>
-      <h3>My Current Age is {currAge}</h3>
-      <h4>My siblings {currSib}</h4>
+    <div className="container">
+      <h3 className="heading">My Current Age is {currAge}</h3>
+      <h4 className="siblings">My siblings {currSib}</h4>
 
-      <button onClick={handleAge}>Get Older</button>
-      <button onClick={handleSib}>Get more Sib</button>
+      <button onClick={handleAge} className="button">Get Older</button>
+      <button onClick={handleSib} className="button">Get more Sib</button>
     </div>
   );
 }
