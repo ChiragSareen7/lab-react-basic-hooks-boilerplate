@@ -1,8 +1,9 @@
-
+import { createContext} from 'react'
 import React, { useState } from 'react';
 import UseContext from './components/UseState.jsx';
+import Toggle from './components/Toggle.jsx';
 
-export const ToggleTheme = React.createContext();
+export const ToggleTheme = createContext();
 
 function App() {
   const [state, setState] = useState(true);
@@ -12,10 +13,13 @@ function App() {
   };
 
   return (
+    <div>
     <ToggleTheme.Provider value={state}>
       <button onClick={handleToggle}>Toggle</button>
-      <UseContext />
+      <Toggle/>
     </ToggleTheme.Provider>
+    <UseContext />
+    </div>
   );
 }
 
