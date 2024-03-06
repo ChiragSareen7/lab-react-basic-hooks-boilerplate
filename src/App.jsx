@@ -1,7 +1,8 @@
 import { createContext} from 'react'
 import React, { useState } from 'react';
 import UseContext from './components/UseState.jsx';
-import Toggle from './components/Toggle.jsx';
+import Toggle from './components/Toggle';
+
 
 export const ToggleTheme = createContext();
 

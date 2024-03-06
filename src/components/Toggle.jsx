@@ -15,8 +15,8 @@ function Toggle() {
   return (
     <div>
     <div style={style}>
-    <useContext  content={content}/>
-    </div>
+  {content}
+</div>
     </div>
   )
 }
